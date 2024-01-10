@@ -1,0 +1,12 @@
+#(©)NovaXTG
+# --- For-Bot-Working --------- #
+pyrogram
+TgCrypto
+pyromod==1.5
+# --- For-Database ------------ #
+pymongo
+dnspython
+# --- For-Web-Response ------- #
+aiohttp
+shortzy
+python-telegram-bot
