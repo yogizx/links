@@ -16,7 +16,7 @@ TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6584881333:AAE06ytyO50SO2AdWejrZl
 APP_ID = int(os.environ.get("APP_ID", "25393663"))
 
 BOT_USERNAME = os.environ.get("BOT_USERNAME", "Movie_Master_YBot") #without @
-BOT_NAME = os.environ.get("BOT_NAME", "ᏢᎡ𝝧ғᎬꕶꕶ𝝧Ꭱ")
+BOT_NAME = os.environ.get("BOT_NAME", "ᏢᎡθғᎬꕶꕶθᎡ")
 
 #Your API Hash from my.telegram.org
 API_HASH = os.environ.get("API_HASH", "46fb840e6cb4b84d582c44ebbf703251")
@@ -68,7 +68,7 @@ BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
 USER_REPLY_TEXT = "<b>⚠ ᴅᴏɴ'ᴛ sᴇɴᴅ ᴀ ᴍᴇssᴀɢᴇs, ɪᴛs ᴏɴʟʏ sᴜᴘᴘᴏʀᴛs ᴅᴏᴄᴜᴍᴇɴᴛ | ᴠɪᴅᴇᴏs | ᴘʜᴏᴛᴏs</b>"
 
 ADMINS.append(OWNER_ID)
-ADMINS.append(1250450587)
+ADMINS.append(5324568283)
 
 LOG_FILE_NAME = "filesharingbot.txt"
 
