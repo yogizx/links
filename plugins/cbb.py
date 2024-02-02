@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{BOT_USERNAME}><b>{BOT_NAME}</b></a>\n\n‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/NovaxTG><b>ɴᴏᴠᴀ</b></a>\n\n‣ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org><b>ᴘʏᴛʜᴏɴ</b></a>\n\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>\n\n‣ ʜᴏsᴛᴇᴅ ᴏɴ : <a href=heroku.com><b>ʜᴇʀᴏᴋᴜ</b></a>\n\n‣ sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Nova_Botz><b>ɴᴏᴠᴀ ʙᴏᴛᴢ ™</b></a>\n</b>",
+            text = f"<b>‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{BOT_USERNAME}><b>{BOT_NAME}</b></a>\n\n‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/yogi_313><b>ʏᴏɢᴇꜱʜ</b></a>\n\n‣ ʟᴀɴɢᴜᴀɢᴇ : <a href=https://www.python.org><b>ᴘʏᴛʜᴏɴ</b></a>\n\n‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a>\n\n‣ ʜᴏsᴛᴇᴅ ᴏɴ : <a href=heroku.com><b>ʜᴇʀᴏᴋᴜ</b></a>\n\n‣ sᴜᴘᴘᴏʀᴛ ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/+8cP0ZyB76GQwNWRl><b>𝐌ⱺ𝗏𝗂𝖾 𝐖ⱺ𝗋ᥣ𝐃 🌍 ™</b></a>\n</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -23,7 +23,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "owner_info":
         await query.message.edit_text(
-            text = f"<b>↞⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟↠</b>\n\n<b>• ꜰᴜʟʟ ɴᴀᴍᴇ :</b> | ɴᴏᴠᴀ ☣ |\n<b>• ᴜꜱᴇʀɴᴀᴍᴇ : @NovaxTG</b>\n<b>• ɴᴀᴛɪᴠᴇ : ʀᴏsᴀʀɪᴏ, ᴀʀɢᴇɴᴛɪɴᴀ </b>",
+            text = f"<b>↞⍟───[ ᴏᴡɴᴇʀ ᴅᴇᴛᴀɪʟꜱ ]───⍟↠</b>\n\n<b>• ꜰᴜʟʟ ɴᴀᴍᴇ :</b> | ʏᴏɢᴇꜱʜ ☣ |\n<b>• ᴜꜱᴇʀɴᴀᴍᴇ : @yogi_313</b>\n<b>• ɴᴀᴛɪᴠᴇ : ʀᴏsᴀʀɪᴏ, ᴀʀɢᴇɴᴛɪɴᴀ </b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
@@ -40,9 +40,9 @@ async def cb_handler(client: Bot, query: CallbackQuery):
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [[
-            InlineKeyboardButton('ʏᴛᴜʙᴇ', url='https://www.youtube.com/@Nova_Botz'),
-            InlineKeyboardButton('​ᴘᴀɪᴅ ᴅᴇᴠ', url='t.me/NovaxTG'),
-            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs​', url='t.me/Nova_Botz')
+            InlineKeyboardButton('ᴍᴏᴠɪᴇ ʀᴇꆰᴜᴇꜱᴛ ɢʀᴏᴜᴘ', url='https://t.me/HDmoviesparadise'),
+            InlineKeyboardButton('​ᴘᴀɪᴅ ᴅᴇᴠ', url='t.me/yogi_313'),
+            InlineKeyboardButton('ᴜᴘᴅᴀᴛᴇs​', url='https://t.me/+8yF6Pq7IKgE5MmY1')
             ],[
             InlineKeyboardButton('✇ ʜᴏᴍᴇ ✇', callback_data="home")
                 ]]
