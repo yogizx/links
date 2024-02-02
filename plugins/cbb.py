@@ -62,7 +62,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
         )
     elif data == "help":
         await query.message.edit_text(
-            text = f"<b>⊹ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ⊹\n\n⇒ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ\n\n⇒ ᴛʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ \n\n⇒ ᴛʜɪs ʙᴏᴛ ʜᴀs ɴᴇᴡ ʀᴀʀᴇ ᴍᴏᴠɪᴇ ᴘᴏsᴛ ғᴇᴀᴛᴜʀᴇ, /tutorial ғᴏʀ ᴍᴏᴠɪᴇ ᴘᴏsᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ. \n\nɪғ ʏᴏᴜ ɪɴᴛʀᴇsᴛᴇᴅ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ\n\n⇒ ғᴏʀ ᴘᴀɪᴅ ᴅᴇᴠᴇʟᴏᴘɪɴɢ : <a href=https://t.me/NovaxTG><b>ɴᴏᴠᴀ</b></a></b>",
+            text = f"<b>⊹ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴛʜɪs ʙᴏᴛ ⊹\n\n⇒ sᴇɴᴅ ᴍᴇ ᴀɴʏ ғɪʟᴇ (ᴏʀ) ᴍᴇᴅɪᴀ ғʀᴏᴍ ᴛᴇʟᴇɢʀᴀᴍ\n\n⇒ ᴛʜɪs ʙᴏᴛ ᴡɪʟʟ sᴇɴᴅ ʏᴏᴜ ᴘᴇʀᴍᴀɴᴇɴᴛ ʟɪɴᴋ \n\n⇒ ᴛʜɪs ʙᴏᴛ ʜᴀs ɴᴇᴡ ʀᴀʀᴇ ᴍᴏᴠɪᴇ ᴘᴏsᴛ ғᴇᴀᴛᴜʀᴇ, /tutorial ғᴏʀ ᴍᴏᴠɪᴇ ᴘᴏsᴛ ᴛᴜᴛᴏʀɪᴀʟ ᴠɪᴅᴇᴏ. \n\nɪғ ʏᴏᴜ ɪɴᴛʀᴇsᴛᴇᴅ ɪɴ ᴛʜɪs ʙᴏᴛ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ\n\n⇒ ғᴏʀ ᴘᴀɪᴅ ᴅᴇᴠᴇʟᴏᴘɪɴɢ : <a href=https://t.me/yogi_313><b>ʏᴏɢᴇꜱʜ</b></a></b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
