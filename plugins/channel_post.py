@@ -32,7 +32,7 @@ async def channel_post(client: Client, message: Message):
     link = await get_shortlink(f"https://t.me/{client.username}?start={base64_string}")
     reply_markup = InlineKeyboardMarkup([[InlineKeyboardButton("💸 Yᴏᴜ ᴄᴀɴ sʜᴀʀᴇ ᴛʜɪs ᴛᴏ ᴀɴʏ ᴄʜᴀᴛs 💸", url=f'https://telegram.me/share/url?url={link}')]])
     
-    await reply_text.edit(f"<b>🦋 ꜰ ɪ ʟ ᴇ    ɴ ᴀ ᴍ ᴇ 🦋\n {filename}\n\n🎁 ꜰ ɪ ʟ ᴇ    ꜱ ɪ ᴢ ᴇ 🎁  {filesize}\n\n⚡️ ᴅ ᴏ ᴡ ɴ ʟ ᴏ ᴀ ᴅ    ʟ ɪ ɴ ᴋ ⚡️\n {link}\n\n🔮 ʜ ᴏ ᴡ   ᴛ ᴏ   ᴏ ᴘ ᴇ ɴ   ʟ ɪ ɴ ᴋ 🔮\n https://t.me/tnlinkdown/9\n\n🎭 ᴍ ᴀ ɪ ɴ    ᴄ ʜ ᴀ ɴ ɴ ᴇ ʟ 🎭\n https://t.me/+6vlG_W5h8pFiOTg1</b>", reply_markup=reply_markup, disable_web_page_preview = True)
+    await reply_text.edit(f"<b>🦋 ꜰ ɪ ʟ ᴇ    ɴ ᴀ ᴍ ᴇ 🦋\n {filename}\n\n🎁 ꜰ ɪ ʟ ᴇ    ꜱ ɪ ᴢ ᴇ 🎁  {filesize}\n\n⚡️ ᴅ ᴏ ᴡ ɴ ʟ ᴏ ᴀ ᴅ    ʟ ɪ ɴ ᴋ ⚡️\n {link}\n\n🔮 ʜ ᴏ ᴡ   ᴛ ᴏ   ᴏ ᴘ ᴇ ɴ   ʟ ɪ ɴ ᴋ 🔮\n https://t.me/How_To_Download_Video_tnlink\n\n🎭 ᴍ ᴀ ɪ ɴ    ᴄ ʜ ᴀ ɴ ɴ ᴇ ʟ 🎭\n https://t.me/moviemaster_yogi\n ©️ мσνιє мαѕтєя</b>", reply_markup=reply_markup, disable_web_page_preview = True)
     if not DISABLE_CHANNEL_BUTTON:
         await post_message.edit_reply_markup(reply_markup)
 
