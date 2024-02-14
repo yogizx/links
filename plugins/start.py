@@ -61,14 +61,14 @@ async def start_command(client: Client, message: Message):
             await message.reply_text("Something went wrong..!")
             return
         await temp_msg.delete()
-
         for msg in messages:
-
-            if bool(CUSTOM_CAPTION) & bool(msg.document):
-                caption = CUSTOM_CAPTION.format(previouscaption = "" if not msg.caption else msg.caption.html, filename = msg.document.file_name)
+            if bool(CUSTOM_CAPTION) and (bool(msg.document) or bool(msg.video)):
+                caption = CUSTOM_CAPTION.format(
+                    previouscaption="" if not msg.caption else msg.caption.html,
+                    filename=msg.document.file_name if msg.document else msg.video.file_name,
+                )
             else:
                 caption = "" if not msg.caption else msg.caption.html
-
             if DISABLE_CHANNEL_BUTTON:
                 reply_markup = msg.reply_markup
             else:
