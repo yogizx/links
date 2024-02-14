@@ -56,7 +56,7 @@ except ValueError:
 FORCE_MSG = os.environ.get("FORCE_SUB_MESSAGE", "<b>Pʟᴇᴀsᴇ ɪᴏɪɴ ᴏᴜʀ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ᴛᴏ ᴜsᴇ ᴍᴇ ❗️</b>")
 
 #set your Custom Caption here, Keep None for Disable Custom Caption
-CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>ɴᴀᴍᴇ :</b> <i>{filename}</i>\n\n <a href=https://t.me/+roeQbRbbk1NiMWM9><b>💢 𝐓𝐚𝐦𝐢𝐥 𝐓𝐡𝐞𝐚𝐭𝐫𝐞 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</b></a> \n\n <a href=https://t.me/+aMkOQzryrEM3NmZl><b>⭐ 𝐓𝐚𝐦𝐢𝐥 𝐇𝐃 𝐌𝐨𝐯𝐢𝐞𝐬 (𝐎𝐓𝐓 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬)</b></a> \n\n <a href=https://t.me/+39OyYpopOuIwMDll><b>🎁 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩</b></a> \n\n ⚠️ɴᴏᴛᴇ: ᴀꜰᴛᴇʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ꜱᴀᴠᴇ ᴛʜᴇ ꜰɪʟᴇ ᴛᴏ ɢᴀʟʟᴇʀʏ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ, ᴅᴏɴ'ᴛ ᴄʟɪᴄᴋ ʙᴇꜰᴏʀᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ɪꜰ ᴜ ᴅᴏɴ'ᴛ ᴡᴀɴᴛ ᴛʜɪꜱ ꜰɪʟᴇ ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ \n\n <a href=https://t.me/moviemaster_yogi><b>©️ мσνιє_мαѕтєя™️</b></a>")
+CUSTOM_CAPTION = os.environ.get("CUSTOM_CAPTION", "<b>ɴᴀᴍᴇ :</b> <i>{filename}</i>\n\n <a href=https://t.me/+roeQbRbbk1NiMWM9><b>💢 𝐓𝐚𝐦𝐢𝐥 𝐓𝐡𝐞𝐚𝐭𝐫𝐞 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬 𝐂𝐡𝐚𝐧𝐧𝐞𝐥</b></a> \n\n <a href=https://t.me/+m-vtWbQbJKYzMmQ9><b>⭐ 𝐓𝐚𝐦𝐢𝐥 𝐇𝐃 𝐌𝐨𝐯𝐢𝐞𝐬 (𝐎𝐓𝐓 𝐑𝐞𝐥𝐞𝐚𝐬𝐞𝐬)</b></a> \n\n <a href=https://t.me/+39OyYpopOuIwMDll><b>🎁 𝐌𝐨𝐯𝐢𝐞 𝐑𝐞𝐪𝐮𝐞𝐬𝐭 𝐆𝐫𝐨𝐮𝐩</b></a> \n\n ⚠️ɴᴏᴛᴇ: ᴀꜰᴛᴇʀ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ꜱᴀᴠᴇ ᴛʜᴇ ꜰɪʟᴇ ᴛᴏ ɢᴀʟʟᴇʀʏ ᴀɴᴅ ᴄʟɪᴄᴋ ᴛʜᴇ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ, ᴅᴏɴ'ᴛ ᴄʟɪᴄᴋ ʙᴇꜰᴏʀᴇ ᴅᴏᴡɴʟᴏᴀᴅɪɴɢ ᴛʜᴇ ꜰɪʟᴇꜱ, ɪꜰ ᴜ ᴅᴏɴ'ᴛ ᴡᴀɴᴛ ᴛʜɪꜱ ꜰɪʟᴇ ᴘʟᴇᴀꜱᴇ ᴄʟɪᴄᴋ ᴅᴇʟᴇᴛᴇ ʙᴜᴛᴛᴏɴ \n\n <a href=https://t.me/moviemaster_yogi><b>©️ мσνιє_мαѕтєя™️</b></a>")
 
 #set True if you want to prevent users from forwarding files from bot
 PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" else False
