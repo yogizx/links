@@ -31,8 +31,8 @@ OWNER_ID = int(os.environ.get("OWNER_ID", "5324568283"))
 PORT = os.environ.get("PORT", "8080")
 
 #Shortener
-SHORTENER_WEBSITE = os.environ.get('SHORTENER_WEBSITE', 'tnshort.net')
-SHORTENER_API = os.environ.get('SHORTENER_API', '48f168b19c165cd387c5a51c97cf73e6bf18ab0b')
+SHORTENER_WEBSITE = os.environ.get('SHORTENER_WEBSITE', 'Seturl.in')
+SHORTENER_API = os.environ.get('SHORTENER_API', 'a89b4de0796461dc9992da9cc9fdd6a6877b1372')
 TUTORIAL_VIDEO = os.environ.get("TUTORIAL_VIDEO", "https://telegra.ph/file/35bfe15a705d870a47f85.mp4")
 #Database 
 DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://karthickjk:karthick@cluster0.vcjskkq.mongodb.net/?retryWrites=true&w=majority")
